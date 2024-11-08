@@ -22,9 +22,9 @@ header h1 {
 
 .section {
     float: left;
-    width: 32%; /* 3 sections in a row */
-    margin-right: 2%; /* Spacing between sections */
-    margin-bottom: 20px; /* Vertical spacing */
+    width: 32%; 
+    margin-right: 2%; 
+    margin-bottom: 20px; 
     background-color: #f9f9f9;
     border: 1px solid black;
     padding: 20px;
@@ -32,7 +32,7 @@ header h1 {
 }
 
 .section:last-child {
-    margin-right: 0; /* Remove margin on the last section */
+    margin-right: 0; 
 }
 
 .section-title {
@@ -46,13 +46,12 @@ header h1 {
 }
 
 .section-content {
-    margin-top: 40px; /* Space for the section title */
+    margin-top: 40px; 
 }
 
-/* Mobile first styles */
 @media (max-width: 767px) {
     .section {
-        width: 100%; /* Full width for mobile */
+        width: 100%; 
         margin-right: 0;
     }
 
@@ -63,12 +62,12 @@ header h1 {
 
 @media (min-width: 768px) and (max-width: 991px) {
     .section {
-        width: 48%; /* Two sections in one row */
-        margin-right: 4%; /* Spacing between sections */
+        width: 48%; 
+        margin-right: 4%; 
     }
 
     .section:last-child {
-        width: 100%; /* Full width for the last section */
+        width: 100%; 
         margin-right: 0;
     }
 
@@ -79,7 +78,7 @@ header h1 {
 
 @media (min-width: 992px) {
     .section {
-        width: 32%; /* Three sections in one row */
+        width: 32%; 
         margin-right: 2%;
     }
 
