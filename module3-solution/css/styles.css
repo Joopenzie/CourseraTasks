@@ -1,0 +1,29 @@
+/* Tall section styling */
+.tall-section {
+    height: 1000px; /* Adjust as necessary for scrolling */
+    background-color: #f8f8f8; /* Light background color */
+    padding: 30px 0;
+}
+
+/* Mobile Navbar dropdown background */
+.navbar-collapse {
+    background-color: #f1f1f1; /* Different background for mobile dropdown */
+}
+
+/* Custom text color and alignment */
+h1 {
+    color: #333;
+    margin-top: 50px;
+}
+
+/* Mobile Menu Dropdown Styles */
+.navbar-toggle {
+    background-color: #333; /* Dark background for menu button */
+}
+
+.header-text {
+    display: flex;
+    justify-self: center;
+    font-size: large;
+    font-weight: bold;
+}
