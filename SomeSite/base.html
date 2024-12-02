@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Пример базовой структуры HTML</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/basics.css">
+  </head>
+
+  <body>
+    <div class="navbar-container">
+      <nav class="navbar navbar-style">
+        <div class="container">
+          <div class="row justify-content-evenly">
+            <div class="col-1 align-self-start">
+              <a class="navbar-brand" href="base.html">
+                <img src="css/assets/images/logo.png" class="img-fluid navbar-logo"/> 
+              </a>
+            </div>
+            
+            <div class="col-7 align-self-center">
+              <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+                <div class="btn-group" role="group" aria-label="Button group">
+                  <button class="btn">Начать играть</button>
+
+                  <div class="navbar-popup-container">
+                    <button class="btn"> О серверах </button>
+
+                    <div class="navbar-popup">
+                      <button class="btn">MagicRPG</button>
+                      <button class="btn">TechnoMagicRPG</button>
+                      <button class="btn">HightTech</button>
+                    </div>
+                  </div>
+
+                  <button class="btn">Донат</button>
+                  <button class="btn">Правила</button>
+
+                  <div class="navbar-popup-container">
+                    <button class="btn"> Прочее </button>
+
+                    <div class="navbar-popup">
+                      <button class="btn">Банлист</button>
+                      <button class="btn">Голосование</button>
+                      <button class="btn">Топы</button>
+                      <button class="btn">Банлист</button>
+                      <button class="btn">Discord</button>
+                      <button class="btn">Telegram</button>
+                      <button class="btn">ВКонтакте</button>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="col-2 align-self-center">
+              <button class="account-button btn" aria-label="Account button">
+                <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 100 100" fill="#FFA500">
+                  <!-- Закругленный квадрат -->
+                  <rect x="5" y="5" width="90" height="90" rx="15" fill="#FFA500" />
+                  <!-- Голова -->
+                  <circle cx="50" cy="35" r="15" fill="#000000" />
+                  <!-- Тело -->
+                  <path d="M30 75C30 63.9543 38.9543 55 50 55C61.0457 55 70 63.9543 70 75H30Z" fill="#000000" />
+                </svg>
+              </button> 
+            </div>
+
+
+          </div>
+        </div>
+      </nav>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+
+</html>
