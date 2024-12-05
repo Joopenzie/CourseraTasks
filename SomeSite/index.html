@@ -9,15 +9,16 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/navbar.css">
     <link rel="stylesheet" href="css/basics.css">
+    <link rel="stylesheet" href="css/mains.css">
   </head>
 
   <body>
     <div class="navbar-container">
       <nav class="navbar navbar-style">
-        <div class="container">
+        <div class="container" id="navbarButtons">
           <div class="row justify-content-evenly">
             <div class="col-1 align-self-start">
-              <a class="navbar-brand" href="base.html">
+              <a id="logo" class="navbar-brand" href="base.html">
                 <img src="css/assets/images/logo.png" class="img-fluid navbar-logo"/> 
               </a>
             </div>
@@ -25,29 +26,28 @@
             <div class="col-7 align-self-center">
               <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
                 <div class="btn-group" role="group" aria-label="Button group">
-                  <button class="btn">Начать играть</button>
+                  <button id="play" class="btn">Начать играть</button>
 
                   <div class="navbar-popup-container">
                     <button class="btn"> О серверах </button>
 
                     <div class="navbar-popup">
-                      <button class="btn">MagicRPG</button>
-                      <button class="btn">TechnoMagicRPG</button>
-                      <button class="btn">HightTech</button>
+                      <button id="magicrpg" class="btn">MagicRPG</button>
+                      <button id="tmr" class="btn">TechnoMagicRPG</button>
+                      <button id="tech" class="btn">HightTech</button>
                     </div>
                   </div>
 
-                  <button class="btn">Донат</button>
-                  <button class="btn">Правила</button>
+                  <button id="donations" class="btn">Донат</button>
+                  <button id="rules" class="btn">Правила</button>
 
                   <div class="navbar-popup-container">
                     <button class="btn"> Прочее </button>
 
                     <div class="navbar-popup">
-                      <button class="btn">Банлист</button>
-                      <button class="btn">Голосование</button>
-                      <button class="btn">Топы</button>
-                      <button class="btn">Банлист</button>
+                      <button id="banlist" class="btn">Банлист</button>
+                      <button id="votes" class="btn">Голосование</button>
+                      <button id="tops" class="btn">Топы</button>
                       <button class="btn">Discord</button>
                       <button class="btn">Telegram</button>
                       <button class="btn">ВКонтакте</button>
@@ -77,7 +77,14 @@
         </div>
       </nav>
     </div>
+
+    <header class="main-container container" id="contentContainer">
+
+    </header>
+
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/navbar.js"></script>
   </body>
 
 </html>
